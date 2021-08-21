@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
     <style>
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: cyan;
+        }
+        
         .container {
             background-color: rgb(61, 202, 245);
             border: 3px solid rgb(64, 6, 119);
@@ -15,10 +25,17 @@
             padding-bottom: 40px;
             padding-left: 34px;
             padding-right: 54px; */
-            padding: 23px 56px 67px 300px;
-            /* padding = top right bottom left  */
-            margin-top: 10px;
-            margin: 50px;
+            /* padding/margin = top right bottom left  */
+            /*padding: 23px 56px 67px 300px;*/
+            /* margin-top: 10px; */
+            margin-top: 3px;
+            margin-bottom: 5px;
+            margin-left: 6px;
+            padding: 34px 19px;
+            /*y(top/bottom) x(left/right);*/
+            margin: 34px;
+            border-radius: 23px;
+            width: 233px;
         }
     </style>
 </head>
